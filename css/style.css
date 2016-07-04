@@ -1,0 +1,105 @@
+.app {
+	height: 100vh;
+}
+.header {
+	width: 100%;
+	position: absolute;
+	float: left;
+	padding: 10px 20px;
+}
+.header .info button {
+	border: 1px solid #fff;
+    background: transparent;
+    padding: 2px 9px;
+    opacity: .5;
+}
+.info button:hover, .info button:active {
+	opacity: 1;
+}
+.header h5 {
+	width: 200px;
+    position: absolute;
+    margin: 0px;
+    letter-spacing: 0.6px;
+    color: #fff;
+    font-weight: 200;
+    padding-top: 5px;
+    opacity: .5;
+}
+.outputSection {
+	height: 55vh;
+	width: 100%;
+	background-image: -moz-linear-gradient( 120deg, rgb(225,0,25) 0%, rgb(226,135,38) 100%);
+  	background-image: -webkit-linear-gradient( 120deg, rgb(225,0,25) 0%, rgb(226,135,38) 100%);
+  	background-image: -ms-linear-gradient( 120deg, rgb(225,0,25) 0%, rgb(226,135,38) 100%);
+  	text-align: center;
+}
+.outputSection h6 {
+	color: #fff;
+	opacity: .5;
+	font-weight: 300;
+	padding-top: 12vh;
+	margin-top: 0px;
+}
+.outputSection h1 {
+    font-size: 4em;
+    margin-top: -10px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.inputSection {
+	text-align: center;
+}
+.userInput {
+	text-align: center;
+    padding: 10px 20px;
+}
+.userInput input {
+	height: 34px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	text-align: center;
+}
+.userInput h6 {
+	color: #c3c3c3;
+}
+.userInput input {
+	width: 100%;
+}
+
+.splitInput {
+	width: 100%;
+    height: 34px;
+    position: relative;
+    border: 1px solid #f7f7f7;
+    border-radius: 6px;
+}
+.splitOutput {
+	width: 100px;
+    margin: auto;
+    margin-top: -3px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right !important; 
+}
+/*BOOTSTRAP RESETS*/
+.btn.active, .btn:active {
+-webkit-box-shadow:none;
+box-shadow: none;
+}
+
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+	background-image: -moz-linear-gradient( 120deg, rgb(225,0,25) 0%, rgb(226,135,38) 100%);
+  	background-image: -webkit-linear-gradient( 120deg, rgb(225,0,25) 0%, rgb(226,135,38) 100%);
+  	background-image: -ms-linear-gradient( 120deg, rgb(225,0,25) 0%, rgb(226,135,38) 100%);
+  	color: #fff !important;
+}
+.btn-default {
+    color: #b2b2b2;
+    background: #f7f7f7;
+    border: transparent;
+   }
